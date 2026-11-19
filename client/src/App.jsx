@@ -294,12 +294,12 @@ function Dashboard() {
             <p>Here's an overview of your job search journey.</p>
           </div>
 
-          <button
+          {/* <button
             className="add-button"
             onClick={() => window.location.href = "/applications"}
           >
             <FiPlusCircle /> Add Application
-          </button>
+          </button> */}
         </div>
 
         {error && <p className="error-message">{error}</p>}
